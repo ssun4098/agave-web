@@ -16,8 +16,7 @@ interface Props {
 
 export default function ResultPhase({ attemptId, workbookName, submittedAt, mockQuestions, mockAnswers, onReset }: Props) {
     const [result, setResult] = useState<AttemptDetail | null>(null);
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [error, setError] = useState(''); // TODO: 서버 구현 후 setError 사용
+    const [error, _setError] = useState(''); // TODO: 서버 구현 후 _setError 사용
     const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
     useEffect(() => {

@@ -5,6 +5,7 @@ export interface AttemptSummary {
     workbookId: number;
     status: AttemptStatus;
     createdAt: string;
+    questionCount: number;
 }
 
 // answer 필드 없음 — 네트워크 노출 방지용 시험 전용 타입

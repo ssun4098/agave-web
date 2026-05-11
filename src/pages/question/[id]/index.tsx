@@ -32,7 +32,6 @@ function ProblemDetail() {
         navigate('/question');
     }
 
-    const category = '시스템 아키텍처';
     const tags = ['#L7_스태프', '#확장성', '#분산시스템'];
 
     return <>

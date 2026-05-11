@@ -1,6 +1,6 @@
 import { api } from "./api";
 import type { CategorySearchRequest, CategoryDetailDto } from "../types/category";
-import type { CommonResponse, PageResponse } from "../types/common";
+import type { PageResponse } from "../types/common";
 
 const PREFIX = "/categories"
 

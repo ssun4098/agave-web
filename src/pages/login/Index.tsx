@@ -7,8 +7,8 @@ import { useNavigate } from 'react-router';
 function LoginPage() {
     const navigate = useNavigate();
     
-    const [error, setError] = useState<string | null>(null);
-    const [isLoading, setIsLoading] = useState(false);
+    const [, setError] = useState<string | null>(null);
+    const [, setIsLoading] = useState(false);
     const [inputs, setInputs] = useState({
         email: '',
         password: ''

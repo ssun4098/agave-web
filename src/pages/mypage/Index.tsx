@@ -32,7 +32,7 @@ function MyPage() {
         [name]: value
     }))
     }
-    const handleSubmit = async (e: React.MouseEventHandler<HTMLButtonElement>) => {
+    const handleSubmit = async () => {
         const {name, avatar} = inputs;
         if(!name) {
             alert('이름을 작성해주세요.')
